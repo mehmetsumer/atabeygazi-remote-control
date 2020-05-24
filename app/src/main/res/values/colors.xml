@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="atabeyBlue">#0E111F</color>
+    <color name="atabeyRed">#FF2929</color>
+    <color name="whiteGray">#ccffffff</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGreen">#4DB23A</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkBlue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+    <color name="black">#000000</color>
+    <color name="darkGrey">#1b1b1b</color>
+    <color name="blue">#1005F9</color>
+    <color name="colorQues">#c86dd7</color>
+
+</resources>
