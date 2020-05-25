@@ -148,10 +148,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(resultCode == 0) sw_bluetooth.setChecked(false);
-        else {
-            getDevices(true);
-            if(getConnectedDevice() != null) connectDevice(getConnectedDevice());
+        try {
+            if(resultCode == 0) sw_bluetooth.setChecked(false);
+            else {
+                getDevices(true);
+                if(getConnectedDevice() != null) connectDevice(getConnectedDevice());
+            }
+        } catch (Exception e){
+
         }
     }
 
